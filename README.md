@@ -22,7 +22,8 @@ https://hypernodes.bismuth.live/?page_id=163
 
 ## Bismuth.live API
 
-`https://hypernodes.bismuth.live/status.json` is updated every 3 minutes and lists all registered Hypernodes with their current PoS height, or -1 if inaccessible.
+https://hypernodes.bismuth.live/status.json  
+Is updated every 3 minutes and lists all registered Hypernodes with their current PoS height, or -1 if inaccessible.
 
 The format is a Json dict, keys being Hypernodes IP and value, the height (or -1)
 
