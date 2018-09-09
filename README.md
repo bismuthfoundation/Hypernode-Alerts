@@ -33,7 +33,7 @@ Do **not** hammer this url, it only updates every 3 minutes.
 
 ## IFTTT maker webhook
 
-Allows to sent SMS or mobile notification from a simple HTTP call.
+Allows to send SMS or mobile notification from a simple HTTP call.
 
 TBD
 
