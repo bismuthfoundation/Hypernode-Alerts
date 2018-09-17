@@ -10,6 +10,15 @@ Get in touch on discord or open a PR to add your own app.
 
 Checks status of a Hypernode, and sends a mail when it's down.
 
+## c-Lemoussel-native
+
+Checks status of your Hypernode(s), sends an email alert if inactive.
+
+## c-Lemoussel-IFTTT
+
+Checks status of your Hypernode(s), triggers an IFTTT hook if inactive.  
+This can then be used with an IFTTT applet to trigger an SMS or mobile notification.
+
 
 # Docs
 
@@ -54,8 +63,7 @@ Do **not** hammer this url, it only updates every 3 minutes.
 
 ## IFTTT maker webhook
 
-Allows to send SMS or mobile notification from a simple HTTP call.
-
-TBD
+Allows to send SMS or mobile notification from a simple HTTP call.  
+https://github.com/bismuthfoundation/Hypernode-Alerts/blob/master/IFTTT/webhook.md
 
 
