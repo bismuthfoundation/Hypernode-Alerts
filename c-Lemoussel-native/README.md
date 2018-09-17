@@ -2,17 +2,18 @@
 
 ## Installing
 
-1. Install [libcurl](http://curl.haxx.se/libcurl/c).
+1. Install [libcurl](http://curl.haxx.se/libcurl/c).  
      * `sudo apt install libcurl4-gnutls-dev`
-2. Install [libconfig](https://github.com/hyperrealm/libconfig)
+2. Install [libconfig](https://github.com/hyperrealm/libconfig)  
      * `sudo apt install libconfig-dev`
 3. Clone this [repository](https://github.com/bismuthfoundation/Hypernode-Alerts.git) using Git or download the [zip file](https://github.com/bismuthfoundation/Hypernode-Alerts/archive/master.zip) from Github.
 4. Change to directory `c-Lemoussel-native` and do `make`
 
 ## Usage
 
-This tool use [Bismuth.live API](https://hypernodes.bismuth.live/status.json)
-This API lists all registered Hypernodes with their current PoS height, or -1 if inaccessible. Do not hammer this url, it only updates every 3 minutes.
+This tool uses [Bismuth.live API](https://hypernodes.bismuth.live/status.json)  
+This API lists all registered Hypernodes with their current PoS height, or -1 if inaccessible.  
+Do not hammer this url, it only updates every 3 minutes.
 
 Modify configuration file `HNAnative.cfg`
 
@@ -38,7 +39,8 @@ smtpPasswd="password"
 
 and, basically, run `HNAnative`
 
-Every `timeSupervision` seconds, it checks if your HN is accessible. If your Hypernode is inaccessible, an email is sent with this information :
+Every `timeSupervision` seconds, it checks if your HN is accessible.  
+If your Hypernode is inaccessible, an email is sent with this information :
 
 ```shell
 Subject: BISMUTH NODE ALERT
